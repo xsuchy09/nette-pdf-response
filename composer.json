@@ -1,0 +1,24 @@
+{
+	"name": "xsuchy09/nette-pdf-response",
+	"type": "library",
+	"description": "Nette PDF Response",
+	"homepage": "https://github.com/xsuchy09/nette-pdf-response",
+	"license": ["MIT", "BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+	"authors": [
+		{
+			"name": "Ing. Petr Suchý",
+			"email": "suchy@wamos.cz",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">= 7.1",
+		"nette/application": "^3.0",
+		"nette/http": "^3.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"xsuchy09\\Application\\Responses\\": "src/"
+		}
+	}
+}
