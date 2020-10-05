@@ -12,9 +12,9 @@ class SomePresenter extends BasePresenter
 {
 	public function actionDefault()
 	{
-        // $pdfCreator is yours pdf library
-        $pdfCreator = new ...
-        //  which will return pdf as data here
+		// $pdfCreator is yours pdf library
+		$pdfCreator = new ...
+		//  which will return pdf as data here
 		$data = $pdfCreator->getData();
 
 		$response = new \xsuchy09\Application\Responses\PdfResponse($data, 'download.pdf');
